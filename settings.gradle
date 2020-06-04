@@ -1,0 +1,6 @@
+rootProject.name = 'request-handler'
+
+include 'request-handler-api'
+include 'request-handler-db'
+include 'request-handler-impl'
+
