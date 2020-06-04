@@ -14,8 +14,6 @@ import org.springframework.test.context.jdbc.Sql;
 import ru.megafon.request.handler.IntegrationTest;
 import ru.megafon.request.handler.data.TestData;
 import ru.megafon.request.handler.dto.UserDto;
-import ru.megafon.request.handler.dto.UserDto;
-import ru.megafon.request.handler.model.User;
 import ru.megafon.request.handler.repository.RoleRepository;
 import ru.megafon.request.handler.repository.UserRepository;
 

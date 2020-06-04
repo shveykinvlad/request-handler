@@ -1,12 +1,12 @@
 package ru.megafon.request.handler.config;
 
-import ru.megafon.request.handler.model.Request;
-import ru.megafon.request.handler.dto.RequestDto;
-import ru.megafon.request.handler.dto.UserDto;
-import ru.megafon.request.handler.model.User;
 import ma.glasnost.orika.MapperFactory;
 import net.rakugakibox.spring.boot.orika.OrikaMapperFactoryConfigurer;
 import org.springframework.context.annotation.Configuration;
+import ru.megafon.request.handler.dto.RequestDto;
+import ru.megafon.request.handler.dto.UserDto;
+import ru.megafon.request.handler.model.Request;
+import ru.megafon.request.handler.model.User;
 
 @Configuration
 public class MapperConfig implements OrikaMapperFactoryConfigurer {
